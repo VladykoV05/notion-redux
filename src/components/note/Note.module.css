@@ -1,0 +1,54 @@
+.noteHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.noteCard {
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.noteCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.noteCard h3 {
+  font-size: 20px;
+  color: #333;
+  /* margin-bottom: 10px; */
+}
+
+.noteCard p {
+  font-size: 16px;
+  color: #666;
+}
+
+.noteCard .viewNoteLink {
+  text-decoration: none;
+  color: #ff5722;
+  word-break: break-all;
+  font-weight: bold;
+  display: block;
+}
+
+.noteActions {
+  display: flex;
+  gap: 10px;
+  height: min-content;
+}
+
+.noteCard .viewNoteLink:hover {
+  text-decoration: underline;
+}

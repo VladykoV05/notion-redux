@@ -1,0 +1,57 @@
+.createNoteContainer {
+  width: 100%;
+  max-width: 600px;
+  margin: 80px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.createNoteContainer h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.createNoteContainer button {
+  width: 100%;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.createButton {
+  margin-bottom: 8px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+textarea:focus,
+input:focus {
+  border-color: #ff5722;
+}

@@ -1,0 +1,52 @@
+.viewNoteContainer {
+  width: 100%;
+  margin: 80px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.viewNoteContainer h1 {
+  font-size: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #333;
+  flex: 1;
+}
+
+.viewNoteContainer p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.viewNoteContainer .noteContent {
+  margin-top: 20px;
+  font-size: 16px;
+  width: 100%;
+  min-height: 70vh;
+  white-space: pre-wrap;
+  color: #333;
+  height: 100%;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  height: min-content;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title > button {
+  height: fit-content;
+}

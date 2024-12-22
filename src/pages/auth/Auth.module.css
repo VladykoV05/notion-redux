@@ -1,0 +1,103 @@
+.formContainer {
+  width: 100%;
+  max-width: 22rem;
+  padding: 60px 40px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer button {
+  width: 100%;
+}
+
+.formContainer h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #ff5722;
+}
+
+.errorText {
+  color: #ff5722;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.registerButton,
+.loginButton {
+  margin-bottom: 0.5rem;
+}
+
+.loginForm,
+.registerForm {
+  width: 100%;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #ff5722;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.passwordWrapper {
+  position: relative;
+}
+
+.passwordWrapper input {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.registerText {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.registerText a {
+  color: #ff5722;
+  text-decoration: none;
+}
+
+.passwordToggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  cursor: pointer;
+}
